@@ -1,0 +1,134 @@
+body{
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+.table1{
+  margin: 0 auto 0 auto;
+}
+.my{
+  font-style: italic;
+  color: green;
+}
+.skills{
+  width:50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+.computer{
+  height: 200px;
+}
+hr{
+  background-color: #EAF6F6;
+  border-style: none;
+  height :0px;
+  width:4%;
+  border-style: dotted none none none;
+  border-width: 6px;
+  border-color: pink;
+}
+h1{
+  color: #66BFBF;
+}
+h2{
+  color: #66BFBF;
+  font-size: 30px;
+}
+h3{
+  color: #66BFBF;
+}
+h1{
+
+  width :30%;
+  margin: 0 auto 0 auto;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 50px;
+  font-size: 562.5%
+}
+.top{
+  background-color: #E4F9F5;
+
+  padding-top: 140px;
+  position: relative;
+
+}
+/*.middle{
+  width:200px;
+  height: 200px;
+  background-color: red;
+}
+.bottom{
+  width:200px;
+  height: 200px;
+  background-color: blue;
+}*/
+
+.pro{
+  text-decoration: underline;
+}
+.bottom_cloud{
+  position : absolute;
+  right:50%;
+  left:20%;
+}
+.top_cloud{
+  position:absolute;
+  left:70%;
+  bottom:90%;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom{
+  margin-top: 90px;
+  padding-bottom: 72px;
+  background-color: #66BFBF;
+}
+.footer-link{
+  color:#11999E;
+  display:inline-block;
+  margin:10px 20px;
+  text-decoration: none;
+}
+.footer-link::after{
+  content: '';
+  display:block;
+  width:0;
+  height:2px;
+  background:red;
+  transition: width .3s;
+}
+
+.footer-link:hover::after{
+  width:100%;
+  transition: width .3s;
+
+}
+.footer-link:hover{
+  color: white;
+}
